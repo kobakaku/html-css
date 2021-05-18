@@ -1,0 +1,48 @@
+@media (min-width: 600px) {
+  .header {
+    height: 100px;
+    
+  }
+  
+  .header-inner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .intro-inner {
+    flex-direction: row;
+    padding: 50px;
+  }
+  
+  .intro-texts,
+  .intro-img {
+    flex-basis: 47%;
+  }
+  
+  .intro-texts {
+    margin-top: 50px;
+  }
+}
+​
+@media (min-width: 960px) {
+  .main-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    display: block;
+  }
+  
+  .intro-img {
+    height: 400px;
+  }
+  
+  .intro-texts {
+    margin-top: 80px;
+    padding-left: 80px;
+    letter-spacing: 3px;
+  }
+  
+  .intro-title {
+    margin-bottom: 40px;
+  }
+}

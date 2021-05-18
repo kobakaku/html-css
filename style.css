@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.main-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+    display: block;
+}
+
+#container {
+  background-color: aliceblue;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header-inner {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1070px;
+}
+
+
+.header-ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
+.header-li {
+  margin-left: 20px;
+}
+
+.header-li a {
+  color: black;
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.hero {
+  padding-top: 100px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.hero-container {
+  height: 500px;
+}
+
+.hero-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 50px;
+  font-weight: 500;
+  z-index: 2;
+  color: orange;
+}
+
+.hero-container img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.intro {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1070px;
+  margin-bottom: 150px;
+}
+
+.intro-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: gainsboro;
+}
+
+.intro-img {
+  height: 300px;
+  margin-bottom: 16px;
+}
+
+.intro-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: bottom;
+}
+
+.intro-title {
+  padding-bottom: 16px;
+}
+
+.intro-texts {
+  padding-bottom: 16px;
+  
+}
+
+.trouble {
+  background-color: antiquewhite;
+  margin-bottom: 150px;
+}
+
+
+.trouble-inner {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1070px;
+  padding: 30px 0 100px 0;
+}
+
+.messages {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.messages li {
+  display: flex;
+  margin-top: 32px;
+}
+
+li.right-side {
+  flex-direction: row-reverse;
+}
+.pic {
+/*   background: pink; */
+  width: 80px;
+  text-align: center;
+}
+.pic img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.trouble-text {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px 24px;
+  max-width: 60%;
+  line-height: 1.8;
+  position: relative;
+  height: auto;
+}
+.text::before {
+  content: '';
+  width: 0;
+  height: 0;
+  /* border: 8px solid #fff; */
+  border: 8px solid transparent;
+  position: absolute;
+}
+.left-side .text::before {
+  top: 12px;
+  left: -16px;
+  border-right-color: #fff;
+}
+.right-side .text::before {
+  top: 12px;
+  right: -16px;
+  border-left-color: #fff;
+}
+
+.activity-inner {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1070px;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.step {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.textbox {
+  width: 60%;
+}
+
+.text-title {
+  height: 50px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  padding: 20px 0 0 30px;
+  font-size: 30px;
+}
+
+.text {
+  height: 150px;
+  padding: 10px 30px;
+}
+
+.activity-img {
+  width: 20%;
+  padding: 0 10px;
+  margin: auto 0;
+  overflow: hidden;
+}
+
+.activity-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  background-color: White;
+  border: 1px solid Black;
+  font-weight: 600;
+  padding: 10px 40px;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: Black;
+  text-decoration: none !important;
+}
+
+.filled {
+  background-color: Black;
+  color: White !important;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.filled:hover {
+  background-color: White;
+  color: Black !important;
+  box-shadow: none;
+}
+
+.footer {
+  background-color: whitesmoke;
+}
+
+.footer-inner {
+  position: relative;
+  height: 200px;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1070px;
+}
+
+.footer-logo {
+  position: absolute;
+    top: 60%;
+    left: 0;
+}
+
+.logo {
+  font-size: 42px;
+  display: flex;
+}
+
+.logo-img {
+  width: 1em;
+}
+
+.logo-word {
+  
+}
